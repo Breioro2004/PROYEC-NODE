@@ -1,12 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JSproyecto vf</title>
+    <title>Mi primera web</title>
 </head>
+
 <body>
-    Hola mundo
-    <script src="01-tipos/04-tipado-dinamico.js"></script>
+    <h1>HOLA MUNDO</h1>
+    <h2>¿COMO ESTAN?</h2>
+    <img src="img/contasoft.png" width="150"/>
+    <form action="/fomrulario" method="POST">
+        <label for="nombre"> Nombre</label>
+        <input value="Breinner" type="text" id="nombre" name="nombre" placeholder="Breinner"/> 
+        <br>  
+        <label for="apellido"> Apellido</label>
+        <input value="Orozco" type="text" id="apellido" name="apellid" placeholder="Orozco"/> 
+        <br>
+        <label for="comentario">Comentario</label>
+        <textarea cols="50" rows="10" id="comentario" placeholder="ingrese comentario" name="comentario">Este es un valor por defecto</textarea>
+        <br>
+        <button type="submit">Submit</button>      
+    </form>
 </body>
 </html>
